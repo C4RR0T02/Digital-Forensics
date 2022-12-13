@@ -80,7 +80,7 @@
             - User Program or applications
         - System
             - events reported by a variety of core OS components.
-        -Security 
+        - Security 
             - Windows authentication and security processes 
         - Acquiring Windows event logs is a straightforward file acquisition task. 
         - Each log is stored in a separate file in paths specified within registry key 
