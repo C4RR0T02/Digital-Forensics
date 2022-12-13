@@ -33,8 +33,6 @@
 - `Recover`, `analyze` and `present` computer based material to be presented as evidence
 - Help to `identify` the evidence in a short time, `estimate` potential impact of malicious activity and `assess` the intent and identity of perpetrator
 
-
-
 ## Preservation
 
 - Must preserve the `integrity` of the original evidence
@@ -83,8 +81,6 @@
     - histories
     - Content of Memory(RAM)
 
----
-
 ## Categories of Data
 
 ### Active Data
@@ -115,19 +111,30 @@
     - Virtual Machine disk files (VMDK, OVF)
 - Include `physical` or `logical` copy of hard drive, `memory dump` or copies of `removable media`
 
+![](/Week%201/Images/Forensic%20Image.png)
+
 ## Forensic Image Format
 - 2 bit stream copies of evidence
 - 3 types of images
-    1. Complete Disk
-        - Most preferred method
-        - Most comprehensive
-    2. Partition
-        - Contains all allocation unt from an individual partition
-        - Includes unallocated space and file slack in the partition
-        - Does not capture all data on a drive
-        - Taken only when the disk is excessively large
-    3. Logical
-        - Only certain files are acquired
+
+1. Complete Disk
+    - Most preferred method
+    - Most comprehensive
+
+![](/Week%201/Images/Complete%20Disk.png)
+
+2. Partition
+    - Contains all allocation unt from an individual partition
+    - Includes unallocated space and file slack in the partition
+    - Does not capture all data on a drive
+    - Taken only when the disk is excessively large
+
+![](/Week%201/Images/Partition.png)
+
+3. Logical
+    - Only certain files are acquired
+
+![](/Week%201/Images/Logical.png)
 
 ## Drive Layout
 
