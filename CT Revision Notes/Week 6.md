@@ -47,16 +47,16 @@
 - The partition table holds information to identify the type, size and location of the partition, and whether it is active or not. 
 - There can be either four primary or three primary and one extended partitions. Each partition table entries is 16 bytes long.
 
-![](/Week%207/Images/Partition%20Table%20Entry.png)  
+![](/Week%206/Images/Partition%20Table%20Entry.png)  
 
 ## Boot Sectors of hard disk
 
-![](/Week%207/Images/Hard%20Disk%20Boot%20Sectors.png)  
+![](/Week%206/Images/Hard%20Disk%20Boot%20Sectors.png)  
 
 ### Windows XP Partition Layout
 
-![](/Week%207/Images/Windows%20XP%20Partition%20Layout.png)  
+![](/Week%206/Images/Windows%20XP%20Partition%20Layout.png)  
 
 ### Windows 7 and later Partition Layout
 
-![](/Week%207/Images/Windows%207%20and%20Later%20Partition%20Layout.png)  
+![](/Week%206/Images/Windows%207%20and%20Later%20Partition%20Layout.png)  
